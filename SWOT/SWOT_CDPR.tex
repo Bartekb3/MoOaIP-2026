@@ -1,0 +1,78 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{enumitem}
+\usepackage[normalem]{ulem}
+
+\definecolor{sgreen}{HTML}{2E7D32}
+\definecolor{wred}{HTML}{C62828}
+\definecolor{oblue}{HTML}{1565C0}
+\definecolor{torange}{HTML}{E65100}
+
+\setlist[itemize]{leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt}
+\renewcommand{\arraystretch}{1.4}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\newcommand{\head}[2]{\cellcolor{#1}\textcolor{white}{\textbf{\large #2}}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries CD PROJEKT RED -- SWOT Analysis}\\[4pt]
+  {\small Polish AAA game studio (Warsaw) \textbullet{} \textit{The Witcher}, \textit{Cyberpunk 2077}, \textit{Gwent}}
+\end{center}
+
+\vspace{6pt}
+
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+\hline
+\head{sgreen}{Strengths} & \head{wred}{Weaknesses} \\
+\hline
+\begin{itemize}
+  \item Two globally known brands: \textit{The Witcher} and \textit{Cyberpunk}
+  \item Reputation for strong stories, quests and characters
+  \item Large expansions (\textit{Blood and Wine}, \textit{Phantom Liberty}) and long free support
+  \item Own store (GOG) and solid finances from older games
+  \item Free \textit{Witcher 3} remaster (2022) brought back more players on Steam than at launch
+\end{itemize}
+&
+\begin{itemize}
+  \item Damaged trust after the broken \textit{Cyberpunk 2077} launch (2020)
+  \item Very long gaps between games; income depends on 1--2 titles
+  \item History of forced overtime and overpromising
+  \item Loss of own-engine know-how (REDengine) during the switch to Unreal Engine 5
+\end{itemize}
+\\
+\hline
+\head{oblue}{Opportunities} & \head{torange}{Threats} \\
+\hline
+\begin{itemize}
+  \item Netflix series and \textit{Edgerunners} anime bring new fans
+  \item Steady demand for big single-player story RPGs
+  \item New consoles (PS5, Xbox Series, Switch 2) let old games sell again
+  \item Unreal Engine 5 makes hiring easier and allows several projects at once
+  \item \uline{Booming physical card games: a \textit{Gwent} TCG with booster packs}
+  \item \uline{Episodic \textit{Gwent} story campaigns (like \textit{Thronebreaker}) set in the world of \textit{The Witcher 4}; the first episode advertises the main game}
+\end{itemize}
+&
+\begin{itemize}
+  \item Players and investors punish broken launches hard
+  \item Rising game budgets and strong RPG rivals (Bethesda, BioWare, Larian, Warhorse)
+  \item Competition for experienced developers
+  \item Delays or tech problems with the new engine and parallel projects
+  \item \uline{Small audience for \textit{Gwent} spin-offs: neither \textit{Thronebreaker} nor \textit{Rogue Mage} got a sequel}
+  \item \uline{Strong card game rivals (\textit{Hearthstone}, \textit{Balatro}, \textit{Slay the Spire}) and big TCGs (\textit{Pokémon}, \textit{Magic})}
+  \item \uline{A delay of \textit{The Witcher 4} also delays the campaigns tied to it}
+  \item \uline{Players may see paid episodes and bonus cards as a cash grab}
+\end{itemize}
+\\
+\hline
+\end{tabularx}
+
+\end{document}
